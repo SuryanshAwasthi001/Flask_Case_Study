@@ -13,9 +13,9 @@ open terminal in that folder
 Run commands in following order
 
 
-py -m venv bcg
+py -m venv myvenv
 
-bcg/Scripts/activate
+myvenv/Scripts/activate
 
 
 pip install -r requirements.txt
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python api_service_application.py or run it in vs_code or pycharm etc
 
 Flask app is up and running -->
-now you can import bcg.postman_collection.json to postman and try all endpoints
+now you can import CasaeStudy.postman_collection.json to postman and try all endpoints
 
 --------------------now set up the react folder separately -------------------------------------------------------------------
 
